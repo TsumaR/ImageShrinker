@@ -1,0 +1,3 @@
+([('GUI_app',
+   '/Users/wagatsuma/Documents/ImageShrinker/dist/GUI_app',
+   'EXECUTABLE')],)
