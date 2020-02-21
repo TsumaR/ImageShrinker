@@ -31,7 +31,7 @@ if __name__ == '__main__':
     main_win.title('File shrink') 
 
     main_frm = ttk.Frame(main_win)
-    main_frm.grid(column=0, row=0, sticky=tkinter.NSEW, padx=5, pady=10)
+    main_frm.grid(column=0, row=0, sticky=tkinter.NSEW, padx=5, pady=5)
 
     
     input_label = ttk.Label(main_frm, text="input>>")
@@ -59,6 +59,9 @@ if __name__ == '__main__':
 
     EditBox_label.grid(column=0, row=2)
     EditBox.grid(column=1, row=2, sticky=tkinter.EW, padx=5)
+    
+    #file type
+    Extension_box
 
     #shrink
     app_btn = ttk.Button(main_frm, text="実行", command=app)
